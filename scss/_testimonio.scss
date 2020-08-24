@@ -1,0 +1,24 @@
+/* TESTIMONIOS DE VIAJERAS */
+
+$verde: #007E5A;
+$rosaclaro: #E0D0C1;
+$rosamedio: #A76D60;
+$rosaoscuro: #844230;
+$bordo: #601700;
+
+.cajaTest__test{
+	background-color: $rosaclaro;
+	display: flex;
+	img {
+		margin: 5px;
+	}
+} 
+
+.test__txt {
+	color: $bordo;
+	font-size: 20px;
+	margin: 5px;
+	
+} 
+
+

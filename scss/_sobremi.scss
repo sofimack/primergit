@@ -1,0 +1,31 @@
+/* SOBRE MI */
+
+$verde: #007E5A;
+$rosaclaro: #E0D0C1;
+$rosamedio: #A76D60;
+$rosaoscuro: #844230;
+$bordo: #601700;
+
+@mixin bordes($ancho, $estilo, $color) {
+	border-width: $ancho;
+	border-style: $estilo;
+	border-color: $color;
+ }
+
+.sobremi__caja {
+	.sobremi__caja--uppercase{
+	color: $rosaoscuro;
+	text-transform: uppercase;
+}
+}
+
+#videoDrone {
+	margin-top: 60px;
+	iframe{
+		@include bordes(15px, solid, $rosaclaro);
+	}
+}
+
+.margenesSM{
+	margin: 20px;
+}

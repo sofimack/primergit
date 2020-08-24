@@ -1,0 +1,64 @@
+/*INICIO*/
+
+$verde: #007E5A;
+$rosaclaro: #E0D0C1;
+$rosamedio: #A76D60;
+$rosaoscuro: #844230;
+$bordo: #601700;
+
+@mixin bordes($ancho, $estilo, $color) {
+	border-width: $ancho;
+	border-style: $estilo;
+	border-color: $color;
+ }
+
+#fotoPortada {
+	img {
+	text-align: center;
+	background-color: $rosaclaro;
+	}
+}
+
+#textoInicio{
+	a{
+		color: $bordo;
+	}
+}
+
+#inicio{
+	padding-top: 15px;
+}
+
+
+#derechaInicio > div {
+	background-color: $verde;
+	padding: 10px;
+}
+
+
+#derechaInicio p {
+	@include bordes(2px, solid, $rosaclaro);
+	color: $rosaclaro;
+}
+
+
+#derechaInicio h3{
+	color: $rosaclaro;
+}
+
+#derechaInicio ul{
+	display: flex;
+	flex-direction: column;
+}
+
+
+#textoInicio strong {
+	font-size: 25px;
+}
+
+#textoInicio {
+	padding: 20px;
+	color: $rosaoscuro;
+}
+
+

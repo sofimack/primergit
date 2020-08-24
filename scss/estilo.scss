@@ -1,0 +1,110 @@
+@import "inicio";
+@import "footer";
+@import "proximasfechas";
+@import "testimonio";
+@import "sobremi";
+@import "contacto";
+@import "galeria";
+
+$verde: #007E5A;
+$rosaclaro: #E0D0C1;
+$rosamedio: #A76D60;
+$rosaoscuro: #844230;
+$bordo: #601700;
+
+@mixin bordes($ancho, $estilo, $color) {
+	border-width: $ancho;
+	border-style: $estilo;
+	border-color: $color;
+ }
+ 
+ 
+
+/*NAVEGACION*/
+
+.dropdown-item {
+	color: $rosaclaro;
+	@include bordes(1px, solid, $rosaclaro);
+
+}
+.darken-grey-text {
+    color: $rosaclaro;
+}
+
+
+h1 {
+	color: $bordo;
+	text-align: center;
+	background-color: $rosamedio;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 50px;
+	margin: 0;
+}
+
+.navbar-nav li{
+	@include bordes(2px, solid, $rosaclaro);
+	font-size: 16px;
+	margin:	0 5px;
+}
+
+div#navegador {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	z-index: -1;
+	justify-content: space-between;
+	
+}
+
+#logo{
+	border-radius: 110px;
+	margin: 0.3rem;
+}
+
+
+/*EXTRAS*/
+
+
+section p {
+	color: $rosaoscuro;
+}
+
+body {
+	background-image: url('https://i.pinimg.com/originals/8e/60/ab/8e60abd6f787e59ca4c54b748cc67137.png');
+	font-family: 'Karla', sans-serif;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	width: 100%;
+}
+
+
+ul li {
+	color: $rosaclaro;
+}
+
+.fondoVerde {
+	background-color: $verde;
+}
+
+
+.nombrePagina {
+	color: $rosaoscuro;
+	text-transform: uppercase;
+	margin: 20px;
+}
+
+.subtitulos {
+	color: $rosaoscuro;
+}
+
+
+.parrafo {
+	color: $rosaoscuro;
+}
+
+
+
+
+

@@ -1,0 +1,51 @@
+/* PROXIMAS FECHAS */
+
+$verde: #007E5A;
+$rosaclaro: #E0D0C1;
+$rosamedio: #A76D60;
+$rosaoscuro: #844230;
+$bordo: #601700;
+
+
+$PFbg: ( 
+        hijo1PF: $verde,
+        hijo2PF:  $rosamedio,
+        hijo3PF: $rosaoscuro,
+); 
+
+@each $pf, $color in $PFbg {
+   #bg--#{$pf} {
+       background-color: $color;
+   }
+}
+
+
+
+#proxF {
+	display: flex;
+	margin: 2% 10%;
+	justify-content: space-between;
+	.proxF__hijo {
+		background-color: $rosaclaro;
+		padding: 10px;
+		display: flex;
+		justify-content: center;
+		.tituloPF{
+			font-size: 20px;
+			background-color: $rosamedio;
+			text-align: center;
+			color: $bordo;
+		}
+		.paisesPF li {
+			color: $bordo;
+		}
+	}
+}
+
+.masInfo {
+	text-align: center;
+	a{
+		color: $bordo;
+	}
+}
+

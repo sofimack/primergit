@@ -1,0 +1,40 @@
+/*FOOTER*/
+
+$verde: #007E5A;
+$rosaclaro: #E0D0C1;
+$rosamedio: #A76D60;
+$rosaoscuro: #844230;
+$bordo: #601700;
+
+
+@for $col from 1 through 12{
+	.columna-#{$col} {
+		width: 100% / $col;
+	}
+}
+
+
+.fondoFooter {
+	background-color: $rosamedio;
+}
+.h3footer {
+	color: $rosaclaro;
+	text-transform: uppercase;
+}
+.listFooter {
+     list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+	li {
+		a {
+			text-decoration: none;
+			color: $rosaclaro;
+		}
+	}
+}
+hr {
+	background-color: $rosaoscuro;
+	height: 4px;
+	width: 75%;
+}

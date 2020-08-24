@@ -1,0 +1,38 @@
+/* CONTACTO */
+
+$verde: #007E5A;
+$rosaclaro: #E0D0C1;
+$rosamedio: #A76D60;
+$rosaoscuro: #844230;
+$bordo: #601700;
+
+.fondoRosa{
+	color: $rosamedio;
+	background-color: $rosaclaro;
+
+}
+
+.letraRosaOscuro{
+	color: $rosaoscuro;
+}
+
+.letraRosa {
+	color: $rosaclaro;
+}
+
+.fondoRosaOscuro {
+	background-color: $rosamedio;
+}
+
+.botonEnviar{
+	display: flex;
+
+	button{
+		justify-self:center;
+	}
+}
+
+.bordesRedondeados{
+	border-radius: 1rem;
+}
+
