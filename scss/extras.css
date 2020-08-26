@@ -1,0 +1,28 @@
+/*
+
+#imgAvion {
+	left: 0;
+	animation: avioncito 10s linear forwards infinite;
+  }
+  
+  @keyframes avioncito {
+	from {
+	  left: 0;
+	}
+	to {
+	  left: 100%;
+	}
+  }
+
+  #animacionAvion {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: block;
+  }
+
+  #imgAvion {
+	position: absolute;
+	display: block;
+	
+} 
