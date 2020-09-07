@@ -6,11 +6,7 @@ $rosamedio: #A76D60;
 $rosaoscuro: #844230;
 $bordo: #601700;
 
-@mixin bordes($ancho, $estilo, $color) {
-	border-width: $ancho;
-	border-style: $estilo;
-	border-color: $color;
- }
+
 
 .sobremi__caja {
 	.sobremi__caja--uppercase{
