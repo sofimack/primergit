@@ -33,6 +33,16 @@ $bordo: #601700;
 		}
 	}
 }
+
+.listFooter li:hover{
+	transform: scale(1.1);
+	color: $bordo;
+}
+
+.listFooter li a:hover{
+	color: $bordo;
+}
+
 hr {
 	background-color: $rosaoscuro;
 	height: 4px;

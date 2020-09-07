@@ -42,11 +42,30 @@ h1 {
 	margin: 0;
 }
 
+nav{
+	.fondoVerde{
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+}
+
+div{
+	.navbar-brand{
+		padding: 0px;
+	}
+}
+
 .navbar-nav li{
 	@include bordes(2px, solid, $rosaclaro);
 	font-size: 16px;
 	margin:	0 5px;
-}
+	transition: all 0.5s ease;
+ }
+
+ .navbar-nav li:hover {
+		background-color:$rosamedio;
+	  }
+
 
 div#navegador {
 	display: flex;
@@ -59,7 +78,14 @@ div#navegador {
 
 #logo{
 	border-radius: 110px;
-	margin: 0.3rem;
+	margin: 0px 0.3rem;
+	transition: all 0.5s ease;
+	opacity: 1;
+}
+
+#logo:hover{
+	transform: scale(1.1);
+	opacity: 0.6;
 }
 
 

@@ -86,6 +86,13 @@
     text-decoration: none;
     color: #E0D0C1; }
 
+.listFooter li:hover {
+  transform: scale(1.1);
+  color: #601700; }
+
+.listFooter li a:hover {
+  color: #601700; }
+
 hr {
   background-color: #844230;
   height: 4px;
@@ -172,6 +179,13 @@ hr {
 .bordesRedondeados {
   border-radius: 1rem; }
 
+div .newsletter {
+  transition: all 0.5 ease; }
+
+div .newsletter:hover {
+  transform: scale(1.1);
+  background-color: #007E5A; }
+
 /* GALERIA */
 .contenedor {
   margin: 15px 5px;
@@ -185,13 +199,12 @@ hr {
     flex-basis: 200px;
     margin: 1rem; }
     .galeria .galeria__foto .galeria_foto_lafoto {
-      display: block;
       width: 100%;
       height: 100%;
       transition: transform .5s ease-out; }
 
 .galeria_foto_lafoto:hover {
-  transform: scale(2); }
+  transform: scale(1.5); }
 
 /*NAVEGACION*/
 .dropdown-item {
@@ -212,12 +225,23 @@ h1 {
   font-size: 50px;
   margin: 0; }
 
+nav .fondoVerde {
+  padding-top: 0px;
+  padding-bottom: 0px; }
+
+div .navbar-brand {
+  padding: 0px; }
+
 .navbar-nav li {
   border-width: 2px;
   border-style: solid;
   border-color: #E0D0C1;
   font-size: 16px;
-  margin: 0 5px; }
+  margin: 0 5px;
+  transition: all 0.5s ease; }
+
+.navbar-nav li:hover {
+  background-color: #A76D60; }
 
 div#navegador {
   display: flex;
@@ -228,7 +252,13 @@ div#navegador {
 
 #logo {
   border-radius: 110px;
-  margin: 0.3rem; }
+  margin: 0px 0.3rem;
+  transition: all 0.5s ease;
+  opacity: 1; }
+
+#logo:hover {
+  transform: scale(1.1);
+  opacity: 0.6; }
 
 /*EXTRAS*/
 section p {

@@ -36,3 +36,14 @@ $bordo: #601700;
 	border-radius: 1rem;
 }
 
+div{
+	.newsletter{
+		transition: all 0.5 ease;
+	}
+}
+
+div .newsletter:hover{
+	transform: scale(1.1);
+	background-color: $verde;
+
+}
