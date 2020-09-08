@@ -12,20 +12,13 @@ $rosamedio: #A76D60;
 $rosaoscuro: #844230;
 $bordo: #601700;
 
-@mixin bordes($ancho, $estilo, $color) {
-	border-width: $ancho;
-	border-style: $estilo;
-	border-color: $color;
- }
- 
+
  
 
 /*NAVEGACION*/
 
 .dropdown-item {
 	color: $rosaclaro;
-	@include bordes(1px, solid, $rosaclaro);
-
 }
 .darken-grey-text {
     color: $rosaclaro;
@@ -56,7 +49,7 @@ div{
 }
 
 .navbar-nav li{
-	@include bordes(2px, solid, $rosaclaro);
+	border: solid 2px $rosaclaro;
 	font-size: 16px;
 	margin:	0 5px;
 	transition: all 0.5s ease;

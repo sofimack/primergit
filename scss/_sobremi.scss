@@ -17,9 +17,6 @@ $bordo: #601700;
 
 #videoDrone {
 	margin-top: 60px;
-	iframe{
-		@include bordes(15px, solid, $rosaclaro);
-	}
 }
 
 .margenesSM{

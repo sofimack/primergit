@@ -6,17 +6,19 @@ $rosamedio: #A76D60;
 $rosaoscuro: #844230;
 $bordo: #601700;
 
-@mixin bordes($ancho, $estilo, $color) {
-	border-width: $ancho;
-	border-style: $estilo;
-	border-color: $color;
- }
-
 #fotoPortada {
 	img {
 	text-align: center;
 	background-color: $rosaclaro;
 	}
+}
+
+#fotoPortada img:hover{
+	box-shadow:
+			1px 1px $verde,
+			2px 2px $verde,
+			3px 3px $verde;
+	transform: translateX(-3px);
 }
 
 #textoInicio{
@@ -36,11 +38,20 @@ $bordo: #601700;
 }
 
 
-#derechaInicio p {
-	@include bordes(2px, solid, $rosaclaro);
+#derechaInicio {
+	p {
 	color: $rosaclaro;
+	transition: all 0.5 ease;
+	}
 }
 
+#derechaInicio li:hover{
+	transform: scale(1.2);
+}
+
+.tituloPaises:hover{
+	background-color: $rosamedio;
+}
 
 #derechaInicio h3{
 	color: $rosaclaro;
