@@ -10,13 +10,19 @@ $bordo: #601700;
 	background-color: $rosaclaro;
 	display: flex;
 	img {
-		margin: 5px;
+		padding: 5px;
 	}
 } 
 
 .test__txt {
 	color: $bordo;
 	font-size: 20px;
-	margin: 5px;
+	padding: 5px;
 	
 } 
+
+@media (max-width: 575px) {
+	.test__txt{
+		padding-left: 20px;
+	}
+}

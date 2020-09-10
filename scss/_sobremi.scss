@@ -7,18 +7,19 @@ $rosaoscuro: #844230;
 $bordo: #601700;
 
 
-
 .sobremi__caja {
 	.sobremi__caja--uppercase{
-	color: $rosaoscuro;
-	text-transform: uppercase;
-}
+		color: $rosaoscuro;
+		text-transform: uppercase;
+	}
 }
 
 #videoDrone {
 	margin-top: 60px;
+	align-content: center;
 }
 
 .margenesSM{
 	margin: 20px;
 }
+

@@ -7,12 +7,6 @@ $rosaoscuro: #844230;
 $bordo: #601700;
 
 
-@for $col from 1 through 12{
-	.columna-#{$col} {
-		width: 100% / $col;
-	}
-}
-
 
 .fondoFooter {
 	background-color: $rosamedio;
@@ -21,6 +15,11 @@ $bordo: #601700;
 	color: $rosaclaro;
 	text-transform: uppercase;
 }
+
+.seccionesFooter{
+	padding-left: 20px;
+}
+
 .listFooter {
      list-style: none;
     text-decoration: none;
